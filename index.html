@@ -21,7 +21,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'brand-color':'rgba(171, 239, 95, 1.00)'
+                'brand-color':'rgba(171, 239, 95, 1.00)',
+                'brand-o-normal': 'rgba(171, 239, 95, 0.7)'
               }
             }
           }
@@ -109,7 +110,7 @@
                 <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
               </div>
               <div>
-                <button class="flex btn bg-brand-color rounded-3xl">
+                <button class="flex btn bg-brand-o-normal rounded-3xl">
                     <div class="text-xl font-bold ">View Details</div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6  rotate-45  bg-slate-600 text-white rounded-full justify-center items-center inline-flex border-none outline-none">
@@ -120,8 +121,52 @@
          </div>
         </header>
      <!-- main start -->
-    <main class="container mx-auto">
+    <main class=" bg-[#f4f4f4]">
         <!-- About Us start -->
+         <section class="my-24  relative  container mx-auto min-h-screen max-lg:w-11/12  py-8 lg:py-20">
+          <img class="relative -top-5 -left-12 max-md:hidden" src="./assets/Vector.png" alt="">
+          <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4">
+           <!-- about content -->
+             <div class="space-y-5">
+              <!-- btn -->
+                <div class="max-md:text-center">
+                  <button class="btn bg-white font-bold text-xl rounded-full mb-4"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+                </div>
+                <h2 class="text-2xl md:3xl lg:text-5xl font-bold">We design thoughtful, liveable spaces</h2>
+                <p>The barn house captivates with its blend of rustic charm and 
+                  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                  <!-- cards -->
+                   <!-- card1 -->
+                    <div class="p-5 flex bg-white rounded-xl items-center gap-x-5">
+                      <!-- card image -->
+                       <div>
+                        <img  class="mt-4" src="./assets/commercial.png" alt="">
+                       </div>
+                       <!-- card-text -->
+                        <div>
+                          <h4 class="card-title">Commercial</h4>
+                          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                     </div>
+                   <!-- card2 -->
+                    <div class="p-5 flex bg-white rounded-xl items-center gap-x-5">
+                      <!-- card image -->
+                       <div>
+                        <img src="./assets/residential.png" alt="">
+                       </div>
+                       <!-- card-text -->
+                        <div>
+                          <h4 class="card-title">Residential</h4>
+                          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                       </div>
+             </div>
+             <!-- about image -->
+              <div>
+                <img class="w-full h-auto" src="./assets/About side img.png" alt="">
+              </div>
+           </div>
+         </section>
         
     </main>
     <!-- footer start -->
